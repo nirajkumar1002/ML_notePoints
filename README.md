@@ -33,6 +33,137 @@ You have **only input data** and no labeled output — the goal is to discover p
 
 ---
 
+
+# 🧠 Machine Learning Models & When to Use Them
+
+---
+
+## 🔢 1. Linear Regression
+- **Type**: Supervised (Regression)
+- **Use When**:
+  - Predicting a continuous value (e.g., house price, salary).
+  - Relationship between variables is roughly linear.
+- **Pros**: Simple, interpretable, fast.
+- **Cons**: Poor with nonlinear or complex data.
+
+---
+
+## 🟠 2. Logistic Regression
+- **Type**: Supervised (Classification)
+- **Use When**:
+  - Binary classification (e.g., spam detection, churn prediction).
+- **Pros**: Simple and interpretable.
+- **Cons**: Struggles with complex decision boundaries.
+
+---
+
+## 🌳 3. Decision Trees
+- **Type**: Supervised (Classification & Regression)
+- **Use When**:
+  - You need an interpretable model.
+  - Your features are a mix of numerical and categorical.
+- **Pros**: Visualizable, handles missing values well.
+- **Cons**: Prone to overfitting.
+
+---
+
+## 🪵 4. Random Forest
+- **Type**: Supervised (Ensemble)
+- **Use When**:
+  - You want better accuracy than a single tree.
+  - High-dimensional or messy data.
+- **Pros**: Robust, reduces overfitting.
+- **Cons**: Slower, less interpretable.
+
+---
+
+## 🚀 5. Gradient Boosting (XGBoost, LightGBM, CatBoost)
+- **Type**: Supervised (Ensemble)
+- **Use When**:
+  - Tabular data (Kaggle-style structured data).
+  - Need top predictive performance.
+- **Pros**: State-of-the-art accuracy on many structured datasets.
+- **Cons**: Requires tuning, longer training time.
+
+---
+
+## 🔁 6. K-Nearest Neighbors (KNN)
+- **Type**: Supervised (Classification & Regression)
+- **Use When**:
+  - Your data is not very large.
+  - Decision boundary is nonlinear.
+- **Pros**: Simple, no training.
+- **Cons**: Slow prediction, poor with high dimensions.
+
+---
+
+## 🧩 7. Support Vector Machines (SVM)
+- **Type**: Supervised (Classification & Regression)
+- **Use When**:
+  - Complex, high-dimensional datasets.
+  - Need a strong margin-based classifier.
+- **Pros**: Effective for small- to medium-sized datasets.
+- **Cons**: Not scalable to very large datasets.
+
+---
+
+## 🧠 8. Neural Networks (Deep Learning)
+- **Type**: Supervised (Classification & Regression)
+- **Use When**:
+  - Image, audio, or text data (unstructured data).
+  - You have lots of data and compute.
+- **Pros**: High capacity, flexible, powerful.
+- **Cons**: Black-box, needs a lot of data.
+
+---
+
+## 💾 9. Naive Bayes
+- **Type**: Supervised (Classification)
+- **Use When**:
+  - Text classification (spam detection, sentiment).
+  - Features are independent (or close to).
+- **Pros**: Very fast, good with high-dimensional sparse data.
+- **Cons**: Assumes feature independence.
+
+---
+
+## 🔍 10. K-Means Clustering
+- **Type**: Unsupervised (Clustering)
+- **Use When**:
+  - You want to group similar data points (e.g., customer segmentation).
+- **Pros**: Simple and fast.
+- **Cons**: Requires number of clusters in advance.
+
+---
+
+## 🧬 11. Principal Component Analysis (PCA)
+- **Type**: Unsupervised (Dimensionality Reduction)
+- **Use When**:
+  - You want to reduce features (e.g., preprocessing).
+  - Visualize high-dimensional data.
+- **Pros**: Speeds up models, helps avoid overfitting.
+- **Cons**: Hard to interpret components.
+
+---
+
+## 🧠 12. Transformer Models
+- **Type**: Deep Learning (NLP, Vision, Multimodal)
+- **Use When**:
+  - Tasks like translation, summarization, image captioning.
+- **Pros**: State-of-the-art on language & multimodal tasks.
+- **Cons**: Heavy compute, complex.
+
+---
+
+## 🌫 13. Diffusion Models
+- **Type**: Generative (Unsupervised)
+- **Use When**:
+  - High-quality image or audio generation (e.g., DALL·E, Stable Diffusion).
+- **Pros**: SOTA image generation.
+- **Cons**: Training is slow, inference takes time.
+
+---
+
 ## 🟢 3. Reinforcement Learning
 
 An **agent learns by interacting with an environment** and receiving rewards or penalties.
